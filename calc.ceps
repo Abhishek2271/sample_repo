@@ -21,7 +21,7 @@ sm{
  t{Initial; default;};
  t{default; caps_locked; CAPS_LOCK;};
  t{caps_locked; default; CAPS_LOCK;};
- t{default;Final;ANY_KEY;};
+ t{default;default;ANY_KEY;};
  t{caps_locked; caps_locked; ANY_KEY;};
 };
 
