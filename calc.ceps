@@ -21,7 +21,7 @@ sm{
         Final;};
 
  on_enter{
-     key_count = 1;
+     key_count = 5;
  };
 
  Actions{
