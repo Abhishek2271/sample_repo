@@ -1,0 +1,27 @@
+kind Event;
+kind Systemstate;
+kind Guard;
+
+
+
+Event CAPS_LOCK,
+      ANY_KEY;
+
+
+sm{
+ basic_example;
+
+ states{Initial;
+        default;
+        caps_locked;
+        Final;};
+
+
+
+ t{Initial; default;};
+ t{default; caps_locked; CAPS_LOCK;};
+ t{caps_locked; default; CAPS_LOCK;};
+ t{default;Final;ANY_KEY;};
+ t{caps_locked; caps_locked; ANY_KEY;};
+};
+
