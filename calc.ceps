@@ -32,7 +32,7 @@ sm{
   };
   send_upper_case_scan_code{
      key_count = key_count - 1;
-	 print("taking action of sending lower case scan code \n");
+	 print("taking action of sending upper case scan code \n");
      print("key_count=",key_count,"\n");
   };
  };
